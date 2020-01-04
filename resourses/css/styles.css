@@ -5,52 +5,114 @@ font-family: 'Abel', sans-serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Orbitron', sans-serif;*/
 
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap");
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 0 10%;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0 10%;
 }
 
 .container {
-    border: 2px solid #c4c4c4;
-    padding: 10px;
-    margin: 10px 0;
+  border: 2px solid #c4c4c4;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 .color-container {
-    width: 100%;
-
+  width: 100%;
 }
 
 .color-panel {
-    display: inline-block;
-    width: 32%;
-    margin: 20px auto;
-    text-align: center;
+  display: inline-block;
+  width: 32%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .blue-color {
-    color: #ffffff;
-    background-color: #0000FF;
+  color: #ffffff;
+  background-color: #0000ff;
 }
 
 .dark-green-color {
-    background-color: #006400;
+  background-color: #006400;
 }
 
 .dark-orange-color {
-    background-color: #FF8C00;
+  background-color: #ff8c00;
 }
 
 .fuchsia-color {
-    background-color: #FF00FF;
+  background-color: #ff00ff;
 }
 
 .gold-color {
-    background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 .red-color {
-    background-color: #FF0000;
+  background-color: #ff0000;
+}
+
+.fonts-container {
+  display: inline-block;
+}
+
+.left {
+
+}
+
+.right {
+    position: relative;  
+    top: 50px;
+    margin-bottom: 50px;
+    margin-left: 12.3%;
+}
+
+.font-panel {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.font-lable {
+  font-size: 20px;
+  text-decoration: underline;
+
+}
+
+.normal {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.ma-sha-zheng {
+  font-family: "Ma Sha Zheng";
+}
+
+.long-chang {
+  font-family: "Long Chang";
+}
+
+.libre-baskerville {
+  font-family: "Libre Baskerville";
+}
+
+.abel {
+  font-family: Abel;
+}
+
+.dancing-script {
+  font-family: "Dancing Script";
+}
+
+.orbitron {
+  font-family: Orbitron;
 }
