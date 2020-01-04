@@ -116,3 +116,9 @@ body {
 .orbitron {
   font-family: Orbitron;
 }
+
+.heading-style-panel {
+    display: inline-block;
+    position: relative;
+    left: 6%;
+}
